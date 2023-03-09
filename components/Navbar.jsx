@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
+import logo from "/../public/assets/mylogo.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -44,7 +45,7 @@ const Navbar = () => {
             px-2 2xl:px-16"
       >
         <Link href="/">
-          <Image src="/../public/assets/mylogo.png" alt="/" width="125" height="50" />
+          <Image src={logo} alt="/" width="125" height="50" />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex ">
