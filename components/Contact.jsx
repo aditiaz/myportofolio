@@ -39,7 +39,7 @@ const Contact = () => {
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src={ContactImg}
-                  alt=""
+                  alt="/"
                 />
               </div>
               <div>

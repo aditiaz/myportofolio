@@ -1,9 +1,8 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import Image from "next/image";
+
 import propertyImg from "../public/assets/projects/portHousy.png";
 import onlineCinemaImg from "../public/assets/projects/canvaCinema.png";
-import Link from "next/link";
 
 const Projects = () => {
   return (
