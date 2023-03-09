@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/Bs";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
