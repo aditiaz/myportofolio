@@ -11,7 +11,7 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
             Worked in various jobs before I decided to pursue programming. I felt the need to make a
-            change in my life and improve my family's quality of life. After watching numerous
+            change in my life and improve my family&apos;s quality of life. After watching numerous
             online tutorials on the internet and YouTube, I ultimately decided to become a web
             developer. Recently, I participated in a bootcamp offered by Dumbways, where I learned
             both front-end and back-end technologies, and successfully completed it.

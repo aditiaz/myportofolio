@@ -27,7 +27,8 @@ const housy = () => {
             and the price.User authentication is available so you can signup and signin to your
             account with email addres in order to rent your chosen property.This made possible with
             REST API I built with golang and gorillamux as the library and other backend
-            dependencies.I use midtrans as payment gateway , it's still dummy not a real payment.
+            dependencies.I use midtrans as payment gateway , it&apos;s still dummy not a real
+            payment.
           </p>
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           <button className="px-8 py-2 mt-4">Front-end code </button>
