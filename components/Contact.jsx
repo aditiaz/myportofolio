@@ -7,25 +7,11 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 const Contact = () => {
-  // const emailBody = {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [subject, setSubject] = useState("");
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const emailBody = {
-      name: name,
-      phone: phone,
-      email: email,
-      message: message,
-      subject: subject,
-    };
-    console.log(emailBody);
-    // your email sending logic here
-  };
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2  py-16 w-full">

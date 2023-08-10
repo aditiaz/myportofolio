@@ -1,8 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import onlineCinemaImg from "../public/assets/projects/canvaCinema.png";
-import { RiRadioButtonFill } from "react-icons/ri";
-import Link from "next/link";
+import Image from 'next/image';
+import React from 'react';
+import onlineCinemaImg from '../public/assets/projects/canvaCinema.png';
+import { RiRadioButtonFill } from 'react-icons/ri';
+import Link from 'next/link';
 
 const onlineCinema = () => {
   return (
@@ -36,9 +36,15 @@ const onlineCinema = () => {
             backend dependencies.I use midtrans as payment gateway , it&apos;s still dummy not a
             real payment.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Front-end code </button>
-          <button className="px-8 py-2 mt-4 ml-8">Back-end code </button>
+          <a href="https://aditcinema.vercel.app/" target="_blank">
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+          <a href="https://github.com/aditiaz/OnlineCinema" target="_blank">
+            <button className="px-8 py-2 mt-4">Front-end code </button>
+          </a>
+          <a href="https://github.com/aditiaz/OnlineCinemaBE" target="_blank">
+            <button className="px-8 py-2 mt-4 ml-8">Back-end code </button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
